@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../include/libyolact_interface.a  CMakeFiles/yolact_interface.dir/src/yolact.cc.o
+/usr/bin/ranlib ../include/libyolact_interface.a

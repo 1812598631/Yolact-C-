@@ -1,0 +1,13 @@
+# ninja log v5
+996	1048	1655381559668346676	../bin/orb_yolact	909d3edac98526d4
+1	991	1655381559608346308	CMakeFiles/yolact_interface.dir/src/yolact.cc.o	f6c941015e67ba34
+1	935	1655381559552345966	CMakeFiles/orb_yolact.dir/src/c++test.cpp.o	d2ae929d24b14fc8
+1	1022	1655304649142881639	CMakeFiles/test.dir/src/c++test.cpp.o	2ec14d40a3bdf877
+0	41	1655389121075038094	build.ninja	ddddce9dcf03b707
+1040	1101	1655304649218881974	../bin/test	9862fc9f7ac34ed3
+991	996	1655381559616346357	../include/libyolact_interface.a	4109c3fd8778b3dd
+387	427	1655045666652700360	test	2ddbd1f698dbbfa3
+2	1222	1655542088470149634	CMakeFiles/orb_yolact.dir/src/c++test.cpp.o	2fc78234c7f687b4
+2	1222	1655542088470149634	CMakeFiles/yolact_interface.dir/src/yolact.cc.o	d0e7ebaaf2a8036b
+1222	1230	1655542088478149693	../include/libyolact_interface.a	4109c3fd8778b3dd
+1230	1321	1655542088570150379	../bin/orb_yolact	f7bf0f37ed94cbbe

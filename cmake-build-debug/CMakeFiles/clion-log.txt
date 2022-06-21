@@ -1,0 +1,13 @@
+/home/run/下载/CLion-2022.1.1/clion-2022.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/run/下载/CLion-2022.1.1/clion-2022.1.1/bin/ninja/linux/ninja -G Ninja -S /home/run/桌面/SLAM/ORB-SLAM-yolact -B /home/run/桌面/SLAM/ORB-SLAM-yolact/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Python Lib Found! Are: /usr/lib/x86_64-linux-gnu/libpython3.7m.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/run/桌面/SLAM/ORB-SLAM-yolact/cmake-build-debug
