@@ -1,7 +1,8 @@
 # Yolact模型在C++端部署
 
 最近在做动态SLAM，需要将实例分割模型部署在C++端，总结一下整体的流程。
-
+项目模型权重文件需要下载后放在src/python/weights文件夹中
+国内下载链接：https://www.cnblogs.com/isLinXu/p/15309056.html
 ## Yolact+opencv+DNN+onnx C++部署
 
 深度学习的模型部署有很多方式，不过实现起来都不太简单。一开始尝试了一下将yolact的pth模型转化为onnx模型，再通过OPENCV中的DNN库进行读取运行。不过运行速度很慢一帧图片处理时间在2.7秒左右。参考的是https://github.com/hpc203/yolact-opencv-dnn-cpp-python。按理说在C++中运行速度应该要比纯python快上很多，没细看代码也不太清楚怎么回事。这个要注意一下opencv的版本应该在4.5.1以上，不然读取onnx会报错。原作者只给出了C++程序，ubuntu环境下使用cmake进行编译需要CMakeLists文件，下面给出我的cmake文件，可以支持切换opencv3和opencv4。相关地址要改成自己的绝对地址。
